@@ -37,7 +37,7 @@ Agent Creator:
 7. Document usage and limitations
 ```
 
-**Result**: Production-ready agent in ~45 minutes
+**Result**: A draft agent design; production readiness depends on implementation and testing.
 
 ## Core Competencies
 
@@ -77,13 +77,13 @@ Agent Creator:
 | 6. Write Docs | 5 min | How to use it |
 | 7. Test & Refine | 10 min | Validate with queries |
 
-**Total**: ~45 minutes for quality agent
+**Timing**: Estimates are illustrative, not a guarantee.
 
 ## MCP Server Creation
 
 **Official Packages**:
 - `@modelcontextprotocol/sdk` - Core TypeScript SDK
-- `@modelcontextprotocol/create-server` - Scaffold new servers
+- Use the official MCP documentation to choose current scaffolding tools.
 - `@modelcontextprotocol/inspector` - Test and debug
 
 **Creation Steps**:
@@ -145,6 +145,8 @@ Agent Creator:
 **What it looks like**: Abstract descriptions without code
 **Why wrong**: Users can't see how to apply guidance
 **Instead**: Concrete, runnable examples for key patterns
+
+The examples and references are illustrative; verify current SDK APIs and test generated code before deployment.
 
 ## Reference Files
 
